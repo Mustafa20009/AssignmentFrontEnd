@@ -26,7 +26,7 @@ export default function Table({ header, setOpen, data }) {
               <tbody className="divide-y divide-gray-200 bg-white">
                 {data?.map((v) => (
                   <tr key={v._id}>
-                    <td className="whitespace-nowrap py-4  pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                    <td className="capitalize whitespace-nowrap py-4  pr-3 text-sm font-medium text-gray-900 sm:pl-6">
                       {v?.name}
                     </td>
                     <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
